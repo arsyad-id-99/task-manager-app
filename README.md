@@ -60,7 +60,7 @@ flutter run
 Aplikasi sudah terhubung ke backend yang telah di-deploy. Tidak perlu setup backend secara lokal.
 
 - **Base URL:** `https://task-manager-go-9xct.onrender.com`
-- **Backend Repository:** [task-manager-go](https://github.com/username/task-manager-go)
+- **Backend Repository:** [task-manager-go](https://github.com/arsyad-id-99/task-manager-go)
 - **Backend Stack:** Go + PostgreSQL (Supabase) + Docker, deployed di Render
 
 > ⚠️ Catatan: Server menggunakan free tier Render, mungkin perlu ~30 detik untuk "wake up" saat pertama kali diakses setelah lama tidak aktif.
