@@ -6,11 +6,8 @@ Aplikasi Flutter untuk mengelola task pribadi, dibangun sebagai bagian dari tech
 
 ## Demo
 
-### Video Demo
-> 🎥 [Tonton Demo](https://your-demo-link-here.com)
-
 ### APK
-> 📱 [Download APK](https://your-apk-link-here.com)
+> 📱 [Download APK](https://drive.google.com/file/d/1tFRRe0jZ44ROcvvVT7f_kVGw0g2RNgH3/view?usp=sharing)
 
 ### Screenshot
 | Task List | Add Task | Task Detail |
