@@ -32,9 +32,9 @@ class AuthRepositoryImpl implements AuthRepository {
     String password,
   ) async {
     try {
-      final token = await remoteDataSource.register(name, email, password);
-      await localDataSource.saveToken(token);
-      return Right(token);
+      await remoteDataSource.register(name, email, password);
+      final loginResult = await login(email, password);
+      return loginResult;
     } on ServerException {
       return Left(ServerFailure('Gagal melakukan registrasi.'));
     }

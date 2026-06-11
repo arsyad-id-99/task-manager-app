@@ -37,7 +37,7 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
         data: {'name': name, 'email': email, 'password': password},
       );
       if (response.statusCode == 201 || response.statusCode == 200) {
-        return response.data['token'];
+        return response.data['email'];
       } else {
         throw ServerException();
       }
